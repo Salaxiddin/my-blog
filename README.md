@@ -24,7 +24,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### In server/index.js you most paste your mongo db 
 
-2. Enter your API in `config.js`
+2. Enter your Mongo DB in `index.js`
    ```js
    mongoose.connect( #HERE YOU MONGO DB URL ).then(() => console.log('saccess conecting to Data Base!')).catch(err => console.log('DB error :', err))
    ```
